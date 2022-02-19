@@ -1,0 +1,117 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: grey;
+  width: 380px;
+}
+
+header {
+  width: 380px;
+  height: 200px;
+  background-image: url("img/bg2.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+header .clear {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+header .clear i {
+  font-size: 30px;
+  color: #FFF;
+}
+header .clear i:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+header #date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #FFF;
+  font-size: 25px;
+}
+
+.content {
+  width: 380px;
+  height: 350px;
+  max-height: 350px;
+  background-color: #FFF;
+  overflow: auto;
+}
+
+.item {
+  padding: 10px 0;
+}
+
+.item i.complete {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.item i.complete:hover {
+  cursor: pointer;
+}
+
+.fa-check-circle {
+  color: #6eb200;
+}
+
+.item i.delete {
+  position: absolute;
+  left: 60%;
+  font-size: 25px;
+}
+
+.item i.delete:hover {
+  color: #af0000;
+  cursor: pointer;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.text {
+  display: inline;
+  font-size: 20px;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.addToDo {
+  position: relative;
+  width: 360px;
+  height: 40px;
+  background-color: #FFF;
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.addToDo i {
+  position: absolute;
+  font-size: 40px;
+  color: #4162f6;
+}
+.addToDo input {
+  position: absolute;
+  left: 50px;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+}/*# sourceMappingURL=newstyles.css.map */
